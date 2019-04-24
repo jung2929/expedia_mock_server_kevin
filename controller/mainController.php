@@ -540,6 +540,12 @@
                 echo json_encode($res, JSON_NUMERIC_CHECK);
 
                 break;
+            
+            case "sendfcm_new":                
+                $res->result = sendfcm_new();
+                echo json_encode($res, JSON_NUMERIC_CHECK);
+
+                break;
 
 
         }

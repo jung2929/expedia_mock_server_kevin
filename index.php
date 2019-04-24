@@ -51,7 +51,7 @@ $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
     $r->addRoute('DELETE', '/expedia/book', 'book_cancel');
 
     //토큰
-    $r->addRoute('GET', '/expedia/token', 'token');
+    $r->addRoute('GET', '/expedia/fcm', 'sendfcm_new');
 
 //    $r->addRoute('GET', '/logs/error', 'ERROR_LOGS');
 //    $r->addRoute('GET', '/logs/access', 'ACCESS_LOGS');
@@ -104,7 +104,3 @@ switch ($routeInfo[0]) {
 
         break;
 }
-
-
-
-
