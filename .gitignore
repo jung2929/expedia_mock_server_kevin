@@ -1,0 +1,9 @@
+# Important Folder
+.vscode/
+logs/
+
+# Important
+database.php
+jwt_secret_key.php
+fcm.php
+
